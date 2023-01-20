@@ -9,6 +9,15 @@ ul{
   list-style: none;
 }
 
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #0a0a0a;
+}
+
+
 .header {
     background-color: #0a0a0a;
     padding: 33px 0 32px;
