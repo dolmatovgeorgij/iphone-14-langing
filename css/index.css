@@ -86,3 +86,39 @@ body{
   border-radius:30px
    ;
 }
+
+.new {
+  padding: 90px 0 150px;
+}
+
+.new-title {
+  margin: 0 0 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #717171;
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+
+}
+.new-info {
+  display: flex;
+  align-items: center;
+}
+.new-text p{
+  max-width: 560px; 
+  margin: 0 0 30px;
+}
+
+.new-text b{
+  
+  min-width: 560px;
+  font-style: 20px;
+  line-height: 26px;
+  display: block;
+  
+}
+
+.new-img {
+  margin-left: 190px;
+}
