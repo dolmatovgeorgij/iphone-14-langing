@@ -14,7 +14,7 @@ body{
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
-  color: #0a0a0a;
+  color: black;
 }
 
 
@@ -30,6 +30,7 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+
 }
 
 .nav{
@@ -40,11 +41,48 @@ body{
 
 .menu{
   display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .menu-item{
   padding-right: 30px;
 }
 
+.phone{
+   flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
+}
 
+.headline{
+  color: #F5F5F7;
+  text-align: center;
+  padding: 70px 0 40px;
+}
 
+.title{
+  color: #490E84;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  margin-bottom: 0 0 40px;
+}
+
+.headline-img{
+  margin-bottom: 25px;
+  
+}
+
+.headline-btn{
+  display: inline-block;  
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  padding: 20px 117px;
+  background-color: #490E84;
+  border-radius:30px
+   ;
+}
