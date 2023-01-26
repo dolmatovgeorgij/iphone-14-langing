@@ -112,7 +112,7 @@ body{
 
 .new-text b{
   
-  min-width: 560px;
+  max-width: 560px;
   font-style: 20px;
   line-height: 26px;
   display: block;
