@@ -149,3 +149,11 @@ body{
 .color-item p {
     margin: 0;
 }
+
+.you-wont-contact-inner{
+  display: flex;
+}
+
+.wont-contact-form{
+  padding: 140px 100px;
+}
