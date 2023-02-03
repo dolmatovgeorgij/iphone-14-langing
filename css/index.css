@@ -152,8 +152,68 @@ body{
 
 .you-wont-contact-inner{
   display: flex;
+  background-color: #574B63;
+  color: white;
 }
 
 .wont-contact-form{
   padding: 140px 100px;
+  width: 100%;
+  display: flex;
+   flex-direction: column;
+
+}
+
+.you-wont-title{
+  
+  font-size: 32px;
+  line-height: 39px;
+  text-decoration: uppercase;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.wont-contact-input{
+  width: 100%;
+  display: block;
+  background-color: #574B63 ;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  outline: none;
+  padding: 10px 0;
+  border: none;
+  border-bottom:solid white ;
+}
+
+.wont-contact-input::placeholder{
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  opacity: .5;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400 ;
+}
+
+
+.wont-paragraph{
+  color: white;
+  width: 380px;
+  opacity: .5;
+  padding-left: 20px;
+  
+}
+
+.wont-btn{
+  display: inline-block;
+  padding: 16px 80px;
+  border:white;
+  border-radius: 30px;
+  width: 240px;
+  height: 50px;
+  margin: 20px 80px 40px;
+  color: #490E84;
+  font-weight: 700;
+  font-size: 14px;
 }
