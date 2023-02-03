@@ -18,7 +18,7 @@ body{
 }
 
 
-.header {
+.header,footer {
     background-color: #0a0a0a;
     padding: 33px 0 32px;
     color: #717171;
@@ -54,6 +54,8 @@ body{
   flex-basis: 0;
   text-align: right;
 }
+
+
 
 .headline{
   color: #F5F5F7;
@@ -165,7 +167,6 @@ body{
 }
 
 .you-wont-title{
-  
   font-size: 32px;
   line-height: 39px;
   text-decoration: uppercase;
@@ -217,3 +218,51 @@ body{
   font-weight: 700;
   font-size: 14px;
 }
+
+.footer-menu{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.footer {
+  background-color:black;
+}
+
+.footer-inner {
+  color:#717171;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer-link {
+  flex-basis: 0;
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+@media (max-width:1200px){
+  .headline-img{
+    min-width: 100%;
+  }
+
+}
+
+
+
+@media (max-width:560px){
+  .title{
+    font-size: 34px;
+    line-height: 42px;
+  }
+   .head-line-btn{ 
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 90px 16 px;
+   
+}
+   }
+  
+
