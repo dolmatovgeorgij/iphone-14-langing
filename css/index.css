@@ -249,12 +249,25 @@ body{
 
 }
 
+@media (max-width:940px){
+  .new-img{
+    display: none;
+  }
+  .new-text p,
+  .new-text b{
+    max-width: 100%;
+  }
+}
 
 
 @media (max-width:560px){
   .title{
     font-size: 34px;
     line-height: 42px;
+  }
+  .new-title, .color-title {
+    font-size: 18px;
+    line-height: 22px;
   }
    .head-line-btn{ 
     font-size: 18px;
