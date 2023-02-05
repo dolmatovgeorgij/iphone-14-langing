@@ -249,6 +249,17 @@ body{
 
 }
 
+@media (max-width:1100px){
+  .color-list {
+    flex-wrap: wrap;
+}
+  .color-item{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+
 @media (max-width:940px){
   .new-img{
     display: none;
@@ -275,6 +286,12 @@ body{
     padding: 16px 90px 16 px;
    
 }
+    .color-item{
+    width: 100%;
+  }
+    .color-item img {
+      width: 100%;
+    }
    }
   
 
