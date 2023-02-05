@@ -131,8 +131,7 @@ body{
   padding: 150px;
 }
 
-.color-title {
-}
+
 .color-list {
   display: flex;
   justify-content: space-between;
@@ -245,7 +244,7 @@ body{
 
 @media (max-width:1200px){
   .headline-img{
-    min-width: 100%;
+    max-width: 100%;
   }
 
 }
