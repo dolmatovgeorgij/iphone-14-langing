@@ -301,6 +301,17 @@ ul{
     }
 }
 
+@media (max-width:640px){
+    .footer-inner{
+      flex-direction: column;
+      padding: 20px 0;
+    }
+     .footer-inner .logo-img{
+      margin: 15px 0;
+     }
+
+}
+
 @media (max-width:560px){
   .title{
     font-size: 34px;
