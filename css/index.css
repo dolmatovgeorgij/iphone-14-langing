@@ -247,7 +247,18 @@ ul{
   .headline-img{
     max-width: 100%;
   }
-
+  .you-wont-contact-inner{
+    display: block;
+  }
+  .wont-contact-form{
+    width: auto;
+  }
+  .you-wont-title{
+    text-align: center;
+  }
+  .you-wont-img{
+    width: 100%;
+  }
 }
 
 @media (max-width:1100px){
@@ -258,6 +269,12 @@ ul{
     width: 50%;
     margin-bottom: 30px;
   }
+  .wont-contact-form{
+    text-align: center;
+  }
+  .wont-btn{
+      margin: auto;
+    }  
 }
 
 
@@ -269,15 +286,29 @@ ul{
   .new-text b{
     max-width: 100%;
   }
+
 }
 
+@media (max-width:768px){
+    .headline, .new{
+      padding: 50px 0; 
+    }
+    .color{
+      padding-bottom: 50px;
+    }
+    .wont-contact-form{
+      padding: 50px 70px; 
+    }
+}
 
 @media (max-width:560px){
   .title{
     font-size: 34px;
     line-height: 42px;
   }
-  .new-title, .color-title {
+  .new-title,
+  .color-title,
+  .you-wont-title {
     font-size: 18px;
     line-height: 22px;
   }
@@ -292,6 +323,12 @@ ul{
   }
     .color-item img {
       width: 100%;
+    }
+    .wont-contact-form{
+      padding: 50px 30px; 
+    }
+    .wont-btn{
+      margin: auto;
     }
    }
   
